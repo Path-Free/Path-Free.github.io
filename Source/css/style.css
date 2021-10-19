@@ -1,0 +1,261 @@
+body {
+  font-family: Arial, sans-serif;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background: #344051;
+}
+.logo {
+  color: #fff;
+  font-size: 24px;
+  line-height: 60px;
+  padding-left: 388px;
+  float: left;
+}
+.menu {
+  float: left;
+  padding-left: 432px;
+}
+.menu li {
+  float: left;
+  color: #fff;
+  line-height: 60px;
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.main {
+  background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+  height: calc(100% - 60px);
+  width: 100%;
+  box-shadow: #79818d inset 0px -10px 50px -15px ;
+}
+
+.title_container{
+  float: left;
+  margin: 365px 0px 0px 404px;
+  color: #2c384a;
+  text-align: center;
+}
+.title_container h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+.title_container h4{
+  margin-top: 40px;
+  font-size: 22px;
+  color: #79818d;
+  text-align: center;
+}
+.title_container input{
+  height: 40px;
+  text-align: center;
+  border: 2px solid #79818d;
+  border-radius: 5px;
+  color: #79818d;
+  font-size: 18px;  
+  background: none;
+  margin: 50px 14px 14px 0px;
+  padding: 0px 16px;
+}
+
+
+.about h2{
+  text-align: center;
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 110px auto 30px auto;
+}
+.about_border{
+  width: 70px;
+  height: 5px;
+  background: #d17700;
+  margin: 0 auto 60px auto;
+}
+.portrait{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 25px auto;
+  background: no-repeat url(..//img/about_portait.png) center ;
+}
+
+.about{
+  width: 740px;
+  height: 720px;
+  background: #fcfdfd;
+  font-family: Calibri;
+  margin: 0 auto;
+  text-align: center;
+}
+.about p{
+  font-size: 17px;
+  color: #3f495a;
+  font-weight: 500;
+}
+.about_text1{
+  text-align: left;
+  width: 740px;
+  margin: 0 auto 45px auto;
+}
+.about_text2{
+  text-align: left;
+  width: 740px;
+  margin: 0 auto 35px auto;
+}
+.about input{
+  height: 35px;
+  text-align: center;
+  border: 2px solid #79818d;
+  border-radius: 5px;
+  color: #79818d;
+  font-size: 18px;  
+  background: url(../img/download_about.png) no-repeat 5%;
+  padding: 0px 15px 0px 30px;
+}
+
+.whatIcan{
+  width: 100%;
+  height: 525px;
+  background: url(../img/wic_bg.jpg) no-repeat;
+  padding-top: 110px;
+  font-size: 16px;
+}
+.whatIcan h2{
+  text-align: center;
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.whatIcan_border{
+  width: 70px;
+  height: 5px;
+  background: #d17700;
+  margin: 30px auto 100px auto;
+  font-size: 17px;
+}
+
+.web{
+  float: left;
+  width: 210px;
+  text-align: center;
+  margin-right: 85px;
+  margin-left: 410px;
+  background: url(../img/web.png) no-repeat top;
+  padding-top: 70px;
+}
+.dev{
+  float: left;
+  width: 210px;
+  text-align: center;
+  margin-right: 85px;
+  background: url(../img/dev.png) no-repeat top;
+  padding-top: 70px;
+}
+.ceo{
+  float: left;
+  width: 210px;
+  text-align: center;
+  margin-right: 85px;
+  background: url(../img/ceo.png) no-repeat top;
+  padding-top: 70px;
+}
+.marketing{
+  float: left;
+  width: 210px;
+  text-align: center;
+  margin-right: 85px;
+  background: url(../img/mark.png) no-repeat top;
+  padding-top: 70px;
+}
+.whatIcan a{
+  color: #d27f11;
+  font-weight: 700;
+  font-size: 18,6px;
+  margin-bottom: 20px;
+}
+.whatIcan p{
+  margin-top: 20px;
+  color: #616976;
+}
+.web_img{
+  background: url(../img/web.png) no-repeat;
+}
+
+.cases{
+  padding-top: 110px;
+  width: 1170px;
+  height: 800px;
+  margin: 0 auto;
+}
+.cases h2{
+  text-align: center;
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cases_border{
+  width: 70px;
+  height: 5px;
+  background: #d17700;
+  margin: 30px auto 35px auto;
+  font-size: 17px;
+}
+.cases_UpperText{
+  text-align: center;
+  font-size: 16.7px;
+
+}
+.cases_clientWeb h3{
+  text-transform: uppercase;
+  font-size: 25px;
+
+}
+.cases_clientWeb p{
+  font-size: 16.7px;
+  font-family: Calibri;
+  line-height: 40px;
+
+}
+.cases_clientWeb{
+  display: inline-block;
+  float: left;
+}
+.cases_description{
+  margin-left: 22px;
+  width: 850px;
+  display: inline-block;
+}
+.cases_description h3{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Franklin Gothic Medium;
+
+}
+.cases_description p{
+  margin-top: 5px;
+  line-height: 25px;
+  font-size: 20.8px;
+  font-family: Calibri;
+  color: #3f495a;
+}
+.cases input{
+  height: 45px;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  color: #79818d;
+  font-size: 20.8px;
+  text-transform: uppercase;
+  color: white;  
+  background: #63b5ae;
+  padding: 0px 44px;
+  margin-top: 15px;
+}
+.cases_underPicture{
+  padding-top: 670px;
+  background: url(../img/cases_bg.png) no-repeat;
+  background-position: right 100px ;
+}
